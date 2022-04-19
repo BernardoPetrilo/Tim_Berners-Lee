@@ -1,0 +1,72 @@
+body{
+    text-align:center;
+    margin:0;
+    padding-top:850px;
+}
+.imagemtbl{
+    border-radius:50%;
+}
+#bemvindo{
+    position:absolute;
+    bottom:0;
+    background:linear-gradient(#ffffff 0%, #00f2ff) 100%;
+    display:table;
+    width:100%;
+    height:100%;
+}
+h1{
+    font-size:40px;
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    font-weight:300;
+}
+#info{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding:50px;
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+.linha{
+    width:500px;
+    height:6px;
+    background-color:black;
+    margin:8px auto;
+}
+.menu{
+    position:fixed;
+    top:10px;
+    z-index:10;
+    list-style:none;
+    cursor:pointer;
+    background:white;
+    margin-top:0px;
+    width:100%;
+}
+.links{
+  float:left;  
+  padding-top:5px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:5px;
+  font-size:25px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#texto{
+    font-family:Roboto Condensed;
+}
+h2{
+    font-size:30px;
+    font-weight:200;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+html{
+scroll-behavior:smooth;
+}
+.contatos{
+    display:inline;
+}
